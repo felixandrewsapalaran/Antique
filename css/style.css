@@ -137,7 +137,7 @@ a:active {
               
               linear-gradient(0deg, #fff, transparent 3% ), /*Let's add a second transparent linear-gradient that will smoothly fade the white background of the page with the bottom half of the header background image. So we created a new linear gradient. We set the first value to white by typing #fff and the secod value is transparent. we also want to start the gradient to start at the bottom of the header and end at the top. So we gave it a direction angle value of 0 degree right before the color stop. Now we're able to see the soft white overlay, that blends that background image.*/
     
-              #ffa949 url('../img/beach.gif') no-repeat center; /* in our design we'll want the mountains background image, as the bottom layer*/
+              #ffa949 url('../img/beach.jpg') no-repeat center; /* in our design we'll want the mountains background image, as the bottom layer*/
   
   
   /*Please note: Multiple backgrounds are layered according to the order values. The first value being the topmost layer. So keep in mind that if we define a fully opaque background image or color, anywhere above the bottom layer, it will cover up the background layers behind it.

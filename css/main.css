@@ -1,0 +1,350 @@
+
+
+
+
+
+
+/****************
+Page: index
+****************/
+
+
+
+
+#gallery {  /*Targetting id class called gallery for design.*/
+
+  margin:0;
+  padding:0;
+  list-style:none; /*By giving a none value for our list style, no image will be displayed. Instead, the list-style property will define what type of list marker will be rendered. This is default. In addition  this will get rid of the bullet points as well.*/ 
+  box-shadow: 10px 10px 5px grey;
+}
+
+
+#gallery li {
+
+  float: left;
+  width:50%;
+  margin: 3.5%;
+  background-color:  #fff;
+/*  box-shadow: 5px 5px 5px grey;*/
+}
+
+
+#gallery li a p{  /*Here we are targetting the list element, the anchor/link of the gallery and its paragraph. */
+
+  margin: 0px; /*This margin the determined or give space how far away we want from the border. Remember content space then padding space then border space then margin.*/
+  
+  padding: 5%; /*this padding value will determine how far we want from the content*/
+  
+  font-size: 1em; /*This declaration will determine the size of our text inside the gallery or the paragraph text.*/
+  
+  color: #404040; /*This will change the color of our link or the paragraph text.*/
+  
+  box-shadow: 5px 5px 5px grey;
+   border-radius: 15px;
+    background: #73AD21;
+    padding: 30px; 
+    width: 150px;
+    height: 10px; 
+  
+}
+
+
+/***********
+About Page
+************/
+
+
+body  {
+
+  background-color: #FAEBD7
+}
+
+h1 {
+
+font-size: 4em;
+text-align:center;  
+}
+
+h2 {
+
+  text-align:center;
+}
+p, h3, h4{
+  text-align:center;
+}
+
+
+
+#top  {
+
+  text-align:center;
+}
+
+  
+  
+
+
+
+
+
+/*************
+Page: Contact
+***************/
+
+
+body  {
+
+  background-color: #FAEBD7
+}
+
+
+
+#logo { /*Here we are targetting the id named logo for design*/
+
+  text-align:center;/*When the screen size reduce to 660px the text above will move to the center.*/
+  margin: 0;
+  align-content: flex-start; /*Lines are packed towards of the flex container.*/
+  text-shadow: 5px 5px 5px grey;
+   
+
+}
+
+
+h1 {
+
+font-family: 'Cormorant Garamond', serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 2; /* specify the space between lines*/
+  
+}
+
+h2 {
+
+  font-size: 1em;
+  margin: -5px 0 0; /* Top margin= -5px, Right and Left margin= 0, Bottom margin= 0 */
+  font-weight:400; /*The font-weight property sets how thick or thin chracters in text should be displayed.*/
+   
+  
+}
+#wrapper { /*We are targetting id wrapper for to create some design*/
+  
+  max-width:940px; /* We want the width to be no longer than 940 pixels across. Using max-width instead, in this situation, will improve the browser's handling of small windows. This is important when making a site usable on small devices.*/
+  margin: 0 auto; /*0 is the value from top & bottom. Auto fill in any avaible space from left to right. Margin properties are used to generate space around elements. The margin properties set the size of the white space outisde the border. You test this by changing the color later if you want.*/
+  padding: 0 5%; /*0 represents the padding from top & bottom. 5% represet the padding from left to right. The padding properties are used to generate space around the content. The padding clears an area around the content (inside the the border) of an elemement.*/
+  
+  
+}
+
+
+.contact  {   /*This class contact-info only applies to our unordered list in contact page.*/
+  
+  list-style: block; /*By setting the list style declaratio n value to none will remove the markers that shown*/
+  padding:0%; /*This will move the direction of the contact details depending the value you assign to it.*/
+  margin: 13.5%; /*This will also move the direction of the contact details depending on the value. The bigger the value the closer it moves to the center.*/
+  font-size: 0.9em; /*This will adjust the size of the text in our contact details.*/
+ 
+}
+
+
+
+
+
+
+
+
+
+  
+  /***********************************
+  Warning!: We are missing a close bracket here but still works. Please ask an expert for this type problem.
+  ***********************************/
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+/******************
+Find Out More Page
+******************/
+
+
+
+
+.wrapper {
+    padding: 50px 50px;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+  
+  
+}
+
+.right {float: right !important;}
+/* Image zoom on hover + Overlay colour */
+.parent {
+    width: 45%;
+    margin: 20px;
+    height: 300px;
+    border: 1px solid white;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+
+/*******************************
+Several different images
+********************************/
+
+
+.bg-one {
+
+background-image: url('../img/Caluya.jpg');
+
+}
+
+
+.bg-two {
+
+background-image: url('../img/Culasi.jpg');
+
+}
+
+.bg-three {
+
+background-image: url('../img/Barbaza.jpg');
+
+}
+
+.bg-four {
+
+background-image: url('../img/La Libertad.jpg');
+
+}
+
+
+.bg-five {
+
+background-image: url('../img/Pandan.jpg');
+
+}
+
+
+.bg-six {
+
+background-image: url('../img/Sebaste.jpg');
+
+}
+
+
+.bg-seven {
+
+background-image: url('../img/Tibiao.jpg');
+
+}
+
+
+
+
+/******************************
+Double check why is it 9 not 8!!!!!
+*****************************/
+.bg-eight {        
+
+background-image: url('../img/Valderrama.jpg');
+
+}
+
+
+
+
+
+
+
+
+a{
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+    .parent {width: 100%; margin: 20px 0px}
+        .wrapper {padding: 20px 20px;}
+}
+
+
+
+
+.hello {display: none}
+
+
+
+
